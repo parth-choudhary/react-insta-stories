@@ -16,12 +16,10 @@ const styles = {
         alignItems: 'center'
     },
     img: {
-        width: 40,
-        height: 40,
+        width: 36,
+        height: 36,
         borderRadius: 40,
-        marginRight: 10,
-        filter: 'drop-shadow(0 0px 2px rgba(0, 0, 0, 0.5))',
-        border: '2px solid rgba(255, 255, 255, 0.8)'
+        marginRight: 12,
     },
     text: {
         display: 'flex',
@@ -29,15 +27,19 @@ const styles = {
         filter: 'drop-shadow(0 0px 3px rgba(0, 0, 0, 0.9))'
     },
     heading: {
-        fontSize: '1rem',
-        color: 'rgba(255, 255, 255, 0.9)',
+        fontSize: '16px',
+        color: 'rgba(255, 255, 255, 1)',
         margin: 0,
-        marginBottom: 2
+        marginBottom: 3,
+        fontFamily: 'Inter',
+        fontWeight: 500,
     },
     subheading: {
-        fontSize: '0.6rem',
-        color: 'rgba(255, 255, 255, 0.8)',
-        margin: 0
+        fontSize: '13px',
+        color: '#7A7F9E',
+        margin: 0,
+        fontFamily: 'Inter',
+        fontWeight: 500,
     }
 }
 
