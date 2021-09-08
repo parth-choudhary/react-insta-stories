@@ -16,7 +16,7 @@ const styles = {
     progress: {
         height: 2,
         maxWidth: '100%',
-        background: '#555',
+        background: 'rgba(31, 33, 50, 1)',
         margin: 2,
         borderRadius: 2,
         transition: 'opacity 400ms ease-in-out'
