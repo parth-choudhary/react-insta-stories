@@ -41,4 +41,4 @@ const styles = {
     }
 }
 
-export default
+export default Header;
