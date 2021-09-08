@@ -6,7 +6,7 @@ const withHeader: React.FC<{ story: Story, globalHeader: Function }> = ({ story,
     return <>
         {children}
         {story.header && (
-            <div style={{ position: "absolute", left: 12, top: 20, zIndex: 19 }}>
+            <div style={{ position: "absolute", left: 16, top: 28, zIndex: 19 }}>
                 {typeof story === "object" ? (
                     globalHeader ? (
                         globalHeader(story.header)
